@@ -14,10 +14,11 @@ PIXPIN = board.D12
 #Change order if output color is incorrect; i.e. RGB, RGBW, GRBW, GRB
 STRIP = neopixel.NeoPixel(PIXPIN, NUMPIX, brightness=5.0, pixel_order=neopixel.GRBW) 
 
+#First value pre-set 
 PREV = 128
 
 #Lower the number the more wispy of the light
-InitOffset = 12
+InitOffset = 24
 
 #Random Start and End
 ranSt = 40
