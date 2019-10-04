@@ -15,7 +15,9 @@ PIXPIN = board.D12
 STRIP = neopixel.NeoPixel(PIXPIN, NUMPIX, brightness=5.0, pixel_order=neopixel.GRBW) 
 
 PREV = 128
-InitOffset = 32
+
+#Lower the number the more wispy of the light
+InitOffset = 12
 
 #Random Start and End
 ranSt = 40
