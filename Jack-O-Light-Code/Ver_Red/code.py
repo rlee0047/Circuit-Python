@@ -6,13 +6,13 @@ import board
 import neopixel
 
 # Number of NeoPixels
-NUMPIX = 7   
+NUMPIX = 12
 
 # Pin where NeoPixels are connected
-PIXPIN = board.D12  
+PIXPIN = board.D12
 
 #Change order if output color is incorrect; i.e. RGB, RGBW, GRBW, GRB
-STRIP = neopixel.NeoPixel(PIXPIN, NUMPIX, brightness=5.0, pixel_order=neopixel.GRBW) 
+STRIP = neopixel.NeoPixel(PIXPIN, NUMPIX, brightness=5.0, pixel_order=neopixel.GRB)
 
 PREV = 128
 InitOffset = 32
